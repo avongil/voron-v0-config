@@ -1,0 +1,363 @@
+{
+  "_note": "Backup snapshot of Fluidd macro groups/colors (namespace=fluidd, key=macros). This lives in Moonraker's LMDB database, NOT in printer.cfg, so it is not covered by normal config git backups. Restore by POSTing this 'value' object to /server/database/item with {namespace:'fluidd', key:'macros', value:<value below>}.",
+  "exported_at": "2026-09-04T20:56:14.534Z",
+  "value": {
+    "expanded": [
+      0,
+      2,
+      1
+    ],
+    "categories": [
+      {
+        "id": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "TOOL HEAD LIGHTS"
+      },
+      {
+        "id": "2cf678bc-b4b7-451d-8357-a8d997ef97ea",
+        "name": "CHAMBER LIGHTS"
+      },
+      {
+        "id": "b75677c0-74de-493a-a8f2-44f28abc3717",
+        "name": "Input Shaper"
+      },
+      {
+        "id": "0b05d347-e2ae-4558-b165-b44d857349c3",
+        "name": "Print Control"
+      },
+      {
+        "id": "d706c0c3-feb7-400f-98d8-89ade75d37b9",
+        "name": "Filament"
+      },
+      {
+        "id": "eb15c941-37c5-4328-9fda-00138c17afee",
+        "name": "Bed Leveling"
+      },
+      {
+        "id": "c9fa6eac-c9d7-4d2e-8a48-5cf93602ff54",
+        "name": "Maintenance"
+      }
+    ],
+    "stored": [
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#8090c4",
+        "categoryId": "2cf678bc-b4b7-451d-8357-a8d997ef97ea",
+        "name": "LED0"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#8090c4",
+        "categoryId": "2cf678bc-b4b7-451d-8357-a8d997ef97ea",
+        "name": "LED100"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#8090c4",
+        "categoryId": "2cf678bc-b4b7-451d-8357-a8d997ef97ea",
+        "name": "LED50"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#8090c4",
+        "categoryId": "2cf678bc-b4b7-451d-8357-a8d997ef97ea",
+        "name": "LED75"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "PartyTime"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "STATUS_BUSY"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "STATUS_HEATING"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "STATUS_HOMING"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "STATUS_LEVELING"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "STATUS_OFF"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "STATUS_PAUSED"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "STATUS_PRINTING"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "STATUS_READY"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": true,
+        "color": "#c69a5c",
+        "categoryId": "b75677c0-74de-493a-a8f2-44f28abc3717",
+        "name": "axes_map_calibration"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": true,
+        "color": "#c69a5c",
+        "categoryId": "b75677c0-74de-493a-a8f2-44f28abc3717",
+        "name": "axes_shaper_calibration"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": true,
+        "color": "#c69a5c",
+        "categoryId": "b75677c0-74de-493a-a8f2-44f28abc3717",
+        "name": "compare_belts_responses"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "cooling_led"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": true,
+        "color": "#c69a5c",
+        "categoryId": "b75677c0-74de-493a-a8f2-44f28abc3717",
+        "name": "create_vibrations_profile"
+      },
+      {
+        "alias": "",
+        "visible": false,
+        "disabledWhilePrinting": false,
+        "color": "",
+        "categoryId": "0",
+        "name": "T0"
+      },
+      {
+        "alias": "",
+        "visible": false,
+        "disabledWhilePrinting": false,
+        "color": "",
+        "categoryId": "0",
+        "name": "T1"
+      },
+      {
+        "alias": "",
+        "visible": false,
+        "disabledWhilePrinting": false,
+        "color": "",
+        "categoryId": "0",
+        "name": "T2"
+      },
+      {
+        "alias": "",
+        "visible": false,
+        "disabledWhilePrinting": false,
+        "color": "",
+        "categoryId": "0",
+        "name": "T3"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": true,
+        "color": "#c69a5c",
+        "categoryId": "b75677c0-74de-493a-a8f2-44f28abc3717",
+        "name": "excitate_axis_at_freq"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9b8cb5",
+        "categoryId": "a17bb2c8-e878-41f5-bc81-c33d62a330c7",
+        "name": "heating_led"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6b8fb5",
+        "categoryId": "0b05d347-e2ae-4558-b165-b44d857349c3",
+        "name": "START_PRINT"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6b8fb5",
+        "categoryId": "0b05d347-e2ae-4558-b165-b44d857349c3",
+        "name": "END_PRINT"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6b8fb5",
+        "categoryId": "0b05d347-e2ae-4558-b165-b44d857349c3",
+        "name": "PAUSE"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6b8fb5",
+        "categoryId": "0b05d347-e2ae-4558-b165-b44d857349c3",
+        "name": "RESUME"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6b8fb5",
+        "categoryId": "0b05d347-e2ae-4558-b165-b44d857349c3",
+        "name": "CANCEL_PRINT"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6b8fb5",
+        "categoryId": "0b05d347-e2ae-4558-b165-b44d857349c3",
+        "name": "M600"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6b8fb5",
+        "categoryId": "0b05d347-e2ae-4558-b165-b44d857349c3",
+        "name": "SET_PAUSE_AT_LAYER"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6b8fb5",
+        "categoryId": "0b05d347-e2ae-4558-b165-b44d857349c3",
+        "name": "SET_PAUSE_NEXT_LAYER"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6b8fb5",
+        "categoryId": "0b05d347-e2ae-4558-b165-b44d857349c3",
+        "name": "SET_PRINT_STATS_INFO"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#7fa876",
+        "categoryId": "d706c0c3-feb7-400f-98d8-89ade75d37b9",
+        "name": "LOAD_FILAMENT"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#7fa876",
+        "categoryId": "d706c0c3-feb7-400f-98d8-89ade75d37b9",
+        "name": "UNLOAD_FILAMENT"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6fa8a0",
+        "categoryId": "eb15c941-37c5-4328-9fda-00138c17afee",
+        "name": "LEVEL_BED"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#6fa8a0",
+        "categoryId": "eb15c941-37c5-4328-9fda-00138c17afee",
+        "name": "LEVEL_BED_QUICK"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9a9a9a",
+        "categoryId": "c9fa6eac-c9d7-4d2e-8a48-5cf93602ff54",
+        "name": "BED_FAN_VERBOSE"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9a9a9a",
+        "categoryId": "c9fa6eac-c9d7-4d2e-8a48-5cf93602ff54",
+        "name": "PURGE_LINE_ENABLE"
+      },
+      {
+        "alias": "",
+        "visible": true,
+        "disabledWhilePrinting": false,
+        "color": "#9a9a9a",
+        "categoryId": "c9fa6eac-c9d7-4d2e-8a48-5cf93602ff54",
+        "name": "PURGE_LINE"
+      }
+    ]
+  }
+}
