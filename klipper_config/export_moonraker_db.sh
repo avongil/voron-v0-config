@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Export Moonraker's "fluidd" database namespace (macro groups/colors, layout,
-# camera settings, console history, etc) into printer_data/config so it rides
-# along with the normal git-based config backup. This data lives in
+# camera settings, console history, etc) into the klipper_config folder so it
+# rides along with the normal git-based config backup. This data lives in
 # Moonraker's LMDB database, NOT in printer.cfg, so it would otherwise be
 # silently lost on any restore/reflash.
 set -e
-OUT="$HOME/printer_data/config/fluidd_macros_backup.json"
+OUT="$HOME/klipper_config/fluidd_macros_backup.json"
 curl -s "http://localhost:7125/server/database/item?namespace=fluidd" | \
   python3 -c "
 import json, sys, datetime
