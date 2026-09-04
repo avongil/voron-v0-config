@@ -1,6 +1,6 @@
 {
   "_note": "Backup snapshot of the full Fluidd Moonraker database namespace (cameras, layout, macros/categories/colors, console history, etc). Restore by POSTing namespace_value back to /server/database/item with {namespace: 'fluidd', key: <key>, value: <value>} per sub-key, or ask Claude to restore it.",
-  "exported_at": "2026-09-04T21:02:17.312697Z",
+  "exported_at": "2026-09-04T21:03:38.805329Z",
   "namespace_value": {
     "cameras": {
       "activeCamera": "c6314274-8f16-4531-a520-35964ad15080"
