@@ -1,6 +1,6 @@
 {
   "_note": "Backup snapshot of the full Fluidd Moonraker database namespace (cameras, layout, macros/categories/colors, console history, etc). Restore by POSTing namespace_value back to /server/database/item with {namespace: 'fluidd', key: <key>, value: <value>} per sub-key, or ask Claude to restore it.",
-  "exported_at": "2026-09-04T21:03:38.805329Z",
+  "exported_at": "2026-09-21T15:11:52.024657Z",
   "namespace_value": {
     "cameras": {
       "activeCamera": "c6314274-8f16-4531-a520-35964ad15080"
@@ -19,6 +19,17 @@
     },
     "console": {
       "commandHistory": [
+        "SHAPER_CALIBRATE",
+        "AXES_SHAPER_CALIBRATION",
+        "STEPPER_BUZZ STEPPER=stepper_y",
+        "STEPPER_BUZZ STEPPER=stepper_x",
+        "enable_force_move: True",
+        "STEPPER_BUZZ STEPPER=stepper_y",
+        "STEPPER_BUZZ STEPPER=stepper_x",
+        "DUMP_TMC STEPPER=stepper_y",
+        "DUMP_TMC STEPPER=stepper_x",
+        "DUMP_TMC STEPPER=stepper_x",
+        "g28",
         "COMPARE_BELTS_RESPONSES",
         "g28",
         "COMPARE_BELTS_RESPONSES",
@@ -27,18 +38,7 @@
         "SAVE_CONFIG",
         "SAVE_CONFIG",
         "SAVE_CONFIG",
-        "SHAPER_CALIBRATE",
-        "g28",
-        "g28",
-        "save_config",
-        "SHAPER_CALIBRATE",
-        "g28",
-        "SET_FAN_SPEED FAN=Bed_Fan SPEED=0.05",
-        "heating_led",
-        "PID_CALIBRATE HEATER=extruder TARGET=270",
-        "PID_CALIBRATE HEATER=heater_bed TARGET=100",
-        "PID_CALIBRATE HEATER=heater_bed TARGET=100",
-        "PID_CALIBRATE HEATER=heater_bed TARGET=100"
+        "SHAPER_CALIBRATE"
       ]
     },
     "layout": {
@@ -337,7 +337,7 @@
             {
               "id": "jobs-card",
               "enabled": true,
-              "collapsed": true
+              "collapsed": false
             },
             {
               "id": "gcode-preview-card",
@@ -433,8 +433,8 @@
         3,
         4,
         5,
-        6,
-        7
+        7,
+        6
       ],
       "categories": [
         {
@@ -794,6 +794,14 @@
           "color": "",
           "categoryId": "c9fa6eac-c9d7-4d2e-8a48-5cf93602ff54",
           "name": "update_git"
+        },
+        {
+          "alias": "",
+          "visible": true,
+          "disabledWhilePrinting": false,
+          "color": "",
+          "categoryId": "b75677c0-74de-493a-a8f2-44f28abc3717",
+          "name": "RUN_ALL_SHAKETUNE_TESTS"
         }
       ]
     },
@@ -868,10 +876,10 @@
       "fileSystem": {
         "sortDesc": {
           "logs": true,
-          "config": false
+          "config": true
         },
         "sortBy": {
-          "config": "name"
+          "config": "modified"
         }
       },
       "history": {
